@@ -9,12 +9,32 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: Poppins;
+}
+
+button.btn-main {
+    padding: 15px 45px;
+    background: #2d2dc1;
+    border-radius: 50px;
+    border: none;
+}
+
+button.btn-main:hover {
+    background: #5858ee;
+}
+
+.btn-main a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+
 }
 
 .navbar{
     width: 100%;
     height: 10%;
-    background: black;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,14 +46,64 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 50%;
+    margin-right: 2%;
 }
 
 .item-nav{
-    color: white;
+    color: #162b3b;
     font-size: 2em;
 }
 
 .item-nav a{
     text-decoration: none;
     color: inherit;
+    margin: 15px;
+    font-size: 22px;
+    padding: 5px;
+}
+
+
+/* ----- CSS GENESIS ----- */
+
+.full-container {
+    width: 100%;
+    padding: 12px 0;
+    margin: auto;
+}
+
+.box-container {
+    width: 90%;
+    padding: 12px 0;
+    margin: auto;
+}
+
+.top-back{
+    background: #00d0d1;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+i {
+    padding: 0 15px;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.top-header p {
+    color: #fff;
+}
+
+.top-header p {
+    color: #fff;
+    margin: 0%;
+    font-size: 1.1em;
+}
+
+.navbar img {
+    width: 25%;
 }
