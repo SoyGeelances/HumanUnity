@@ -66,12 +66,14 @@ button.btn-main:hover {
 /* ----- CSS GENESIS ----- */
 
 .full-container {
+    display: flex;
     width: 100%;
     padding: 12px 0;
     margin: auto;
 }
 
 .box-container {
+    display: flex;
     width: 90%;
     padding: 12px 0;
     margin: auto;
@@ -107,3 +109,16 @@ i {
 .navbar img {
     width: 25%;
 }
+
+.slider-back {
+    background-image: url(/img/slider.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+.h1-slider {
+    font-size: 7em;
+    font-weight: 900;
+    color: #fff;
+}
+
