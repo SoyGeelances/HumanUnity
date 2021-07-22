@@ -122,3 +122,63 @@ i {
     color: #fff;
 }
 
+/* CSS Marqui */
+
+    .seccion-quienes-somos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-quienes-somos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .container-img-quienes-somos{
+        width: 40%;
+    }
+
+
+    .img-quienes-somos{
+        width: 100%;
+    }
+
+    .info-quienes-somos{
+        width: 60%;
+    }
+
+    .contenedor-titulo-quienes-somos{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .titulo-quienes-somos{
+        width: 100%;
+        font-family: Poppins;
+        font-size: 1.5em;
+        
+    }
+
+    .contenedor-info{
+        display: flex;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .contenedor-parrafo-quienes-somos{
+        width: 100%;
+    }
+
+    .parrafo-quienes-somos{
+        color: #6A6A6A;
+        font-family: Poppins;
+        font-size: 1em;
+        margin-right: 1%;
+    }
+
+
