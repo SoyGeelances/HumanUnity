@@ -181,6 +181,145 @@ i {
         margin-right: 1%;
     }
 
+/* CSS MARQUI - FOOTER*/
+
+    .container-footer{
+        width: 100%;
+        background-image: url(/img/footer.jpg);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo-redes{
+        width: 25%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 2%;
+        
+    }
+
+    .logo-footer-logo-redes{
+
+    }
+
+    .parrafo-footer-logo-redes{
+        color: white;
+        font-family: Poppins;
+        font-size: .95em;
+        text-align: left;
+    }
+
+    .logo-footer{
+        width: 70%;
+    }
+
+    .icons i:hover{
+        cursor: pointer;
+    }
+
+    .footer-contacto{
+        width: 25%;
+        height: 40vh;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-footer-contacto h3{
+        color: white;
+        font-size: 1.6em;
+    }
+
+    .medios-contacto{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .medios-contacto p{
+        color: white;
+        font-size: .95em;
+    }
+
+    .footer-suscripciones{
+        width: 25%;
+        height: 40vh;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-titulo-suscripciones{
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo-suscripciones{
+        color: white;
+        font-size: 1.6em;
+    }
+
+    .contenedor-parrafo-suscripciones{
+        width: 100%;
+        margin: 0;
+    }
+
+    .parrafo-suscripciones{
+        color: white;
+        font-size: .95em;
+    }
+
+    .contenedor-formulario-suscripciones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-form-suscripciones{
+        width: 100%;
+        height: 5vh;
+    }
+
+    .input-form-suscripciones::placeholder{
+        text-align: center;
+    }
+
+    .btn-form-suscripciones{
+        margin-top: 3%;
+        width: 100%;
+        height: 5vh;
+        background-color: #5858EE;
+        color: white;
+        font-weight: 600;
+    }
+
+    .btn-form-suscripciones:hover{
+        cursor: pointer;
+    }
+
+    .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright p{
+        color: white;
+        font-size: 1em;
+    }
+
+
+
 
 /* ----- CSS MARCOS ----- */
 .section{
