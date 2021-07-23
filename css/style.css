@@ -335,7 +335,7 @@ i {
     width: 350px;
     display: block;
     text-align: center;
-    background-image: url(./img/fondo-nuemeros.jpg);
+    background-image: url(../img/fondo-nuemeros.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -398,7 +398,7 @@ i {
 .monto-img{
     width: 320px;
     height: 88px;
-}  
+}
 .numeromoneda{
     height: 100%;
     width: 75%;
@@ -544,5 +544,12 @@ align-items: center
     align-items: center;
     justify-content: center;
     align-items: center;    
+
+}
+.fotop{
+    height: 100%;
+    width: 100%;
+
+
 }
 
