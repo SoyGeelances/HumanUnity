@@ -246,13 +246,13 @@ section.sect-donaciones {
     justify-content: center;
 }
 
-.titulo-noticias-importantes{
+.titulo-noticias-recientes{
     font-family: Poppins;
     font-size: 2.5em;
     margin-bottom: 1%;
 }
 
-.parrafo-noticias-importantes{
+.parrafo-noticias-recientes{
     width: 50%;
     font-family: Poppins;
     font-size: 1em;
