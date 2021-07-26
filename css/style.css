@@ -12,8 +12,8 @@ body{
     font-family: Poppins;
 }
 
-button.btn-main {
-    padding: 15px 45px;
+.btn-main {
+    padding: 15px 38px;
     background: #2d2dc1;
     border-radius: 50px;
     border: none;
@@ -28,6 +28,7 @@ button.btn-main:hover {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: 1.2vw;
 
 }
 
@@ -40,25 +41,23 @@ button.btn-main:hover {
     align-items: center;
 }
 
-.menu-nav{
+.menu-nav {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: flex-end;
+    width: 55%;
     margin-right: 2%;
 }
 
 .item-nav{
     color: #162b3b;
-    font-size: 2em;
 }
 
 .item-nav a{
     text-decoration: none;
     color: inherit;
     margin: 15px;
-    font-size: 22px;
+    font-size: 1.3vw;
     padding: 5px;
 }
 
@@ -66,17 +65,26 @@ button.btn-main:hover {
 /* ----- CSS GENESIS ----- */
 
 .full-container {
-    display: flex;
-    width: 100%;
+    width: 100vw;
     padding: 12px 0;
     margin: auto;
 }
 
 .box-container {
     display: flex;
-    width: 90%;
+    width: 90vw;
     padding: 12px 0;
     margin: auto;
+}
+
+.main-text {
+    text-align: center;
+    width: 70%;
+    margin:auto;
+}
+
+.main-text h2 {
+    font-size: 3.2vw;
 }
 
 .top-back{
@@ -106,8 +114,12 @@ i {
     font-size: 1.1em;
 }
 
+.logo-menu {
+    width: 30%;
+}
+
 .navbar img {
-    width: 25%;
+    width: 60%;
 }
 
 .slider-back {
@@ -117,10 +129,45 @@ i {
 }
 
 .h1-slider {
-    font-size: 7em;
+    font-size: 7vw;
     font-weight: 900;
     color: #fff;
 }
+
+section.sect-donaciones {
+    background-color: #f9f9f9;
+}
+
+.col-proyectos {
+    display: flex;
+}
+
+.col-3 {
+    padding: 2%;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.data-goal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.data-goal p {
+    font-size: 1.2vw;
+    color: #4b5560;
+}
+
+.data-goal span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* ----- FIN GENESIS ----- */
 
 /* CSS Marqui */
 
@@ -180,6 +227,105 @@ i {
         font-size: 1em;
         margin-right: 1%;
     }
+
+/* CSS MARQUI - NOTICIAS RECIENTES*/
+    
+.seccion-noticias-recientes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.container-noticias-recientes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-noticias-importantes{
+    font-family: Poppins;
+    font-size: 2.5em;
+    margin-bottom: 1%;
+}
+
+.parrafo-noticias-importantes{
+    width: 50%;
+    font-family: Poppins;
+    font-size: 1em;
+    text-align: center;
+}
+
+.container-noticias{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.noticias{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+}
+
+.img-noticias{
+    width: 100%;
+}
+
+.container-contenido-noticias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.contenido-noticias{
+    width: 80%;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.subtitulo-noticias{
+    color: #6A6A6A;
+    font-family: Poppins;
+    font-size: 1em;
+}
+
+.border-subtitulo-noticias{
+    font-weight: 900;
+}
+
+.borde-1{
+    color: #ffaa00;
+}
+
+.borde-2{
+    color: #00FFEC;
+}
+
+.borde-3{
+    color: #0094FF;
+}
+
+.titulo-noticias{
+    font-family: Poppins;
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+.parrafo-noticias{
+    font-family: Poppins;
+    font-size: 1em;
+    color: #6A6A6A;
+    line-height: 25px;
+}
+
+
 
 /* CSS MARQUI - FOOTER*/
 
@@ -455,7 +601,6 @@ i {
     justify-content: center;
     align-items: center;
     background-color: #22b6af;
-   
 }
 .montoboton{
     
@@ -510,7 +655,6 @@ i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 .titulo-section{
     height: 80%;
@@ -543,13 +687,10 @@ align-items: center
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;    
-
 }
+
 .fotop{
     height: 100%;
     width: 100%;
-
-
 }
 
