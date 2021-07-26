@@ -65,7 +65,7 @@ button.btn-main:hover {
 /* ----- CSS GENESIS ----- */
 
 .full-container {
-    width: 100vw;
+    width: 100%;
     padding: 12px 0;
     margin: auto;
 }
