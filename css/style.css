@@ -560,12 +560,12 @@ section.sect-donaciones {
     align-items: center;
 }
 .div-montos{
+    margin-bottom: 5%;
     height: 10%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;  
 }
 .monto1{
     height: 100%;
@@ -603,7 +603,8 @@ section.sect-donaciones {
     background-color: #22b6af;
 }
 .montoboton{
-    
+
+    display: inline-block
     width: 100%;
     height: 100%;
     background-color: #22b6af;
@@ -623,7 +624,7 @@ section.sect-donaciones {
 }
 .boton{
     height: 40%;
-    width: 80%;
+    width: 60%;
     background-color:blue;
     border-radius: none;
     display: flex;
