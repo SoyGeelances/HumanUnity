@@ -212,7 +212,7 @@ section.sect-donaciones {
         
     }
 
-    .contenedor-info{
+    .contenedor-info-quienes-somos{
         display: flex;
         width: 100%;
     }
@@ -559,6 +559,8 @@ section.sect-donaciones {
     justify-content: center;
     align-items: center;
 }
+
+
 .div-montos{
     height: 10%;
     width: 100%;
@@ -619,6 +621,7 @@ section.sect-donaciones {
     align-items: center; 
     background-color: blue;
     border-radius: 25px; 
+    margin-top: 5%;
     
 }
 .boton{
@@ -893,9 +896,7 @@ align-items: center
     align-items: flex-start;
     
 }
-.li-beneficios1{
-    
-    }
+
 .contenedor-boton-1{
     height: 12vh;
     width: 25vw;
@@ -992,9 +993,7 @@ align-items: center
     background-color: white;
     
 }
-.li-beneficios2{
-    
-    }
+
 .contenedor-boton-2{
     height: 12vh;
     width: 20vw;
