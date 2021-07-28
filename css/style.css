@@ -212,7 +212,7 @@ section.sect-donaciones {
         
     }
 
-    .contenedor-info-quienes-somos{
+    .contenedor-info{
         display: flex;
         width: 100%;
     }
@@ -559,8 +559,6 @@ section.sect-donaciones {
     justify-content: center;
     align-items: center;
 }
-
-
 .div-montos{
     margin-bottom: 5%;
     height: 10%;
@@ -606,7 +604,7 @@ section.sect-donaciones {
 }
 .montoboton{
 
-    display: inline-block
+    display: inline-block;
     width: 100%;
     height: 100%;
     background-color: #22b6af;
@@ -614,15 +612,19 @@ section.sect-donaciones {
     font-weight: bold;
     
 }
+
+.boton0{
+   font-size: 15px;
+}
 .contenedor-boton{
+    margin-bottom: 5%;
     height: 10%;
-    width: 80%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center; 
     background-color: blue;
     border-radius: 25px; 
-    margin-top: 5%;
     
 }
 .boton{
