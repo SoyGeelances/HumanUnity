@@ -915,6 +915,10 @@ align-items: center
     color: white;
     font-weight: bold;
 }
+.more:hover{
+    cursor: pointer;
+    background: yellow;
+}
 
 
 
