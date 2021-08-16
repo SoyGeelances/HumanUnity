@@ -28,7 +28,7 @@ button.btn-main:hover {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 
 }
 
@@ -165,6 +165,64 @@ section.sect-donaciones {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+    .btn-main a {
+        font-size: 1.7vw;
+    }
+
+    .main-text h2 {
+        font-size: 2.5em;
+    }
+
+    .slider-back {
+        background-position: top;
+        height: 420px;
+    }
+
+    .h1-slider {
+        font-size: 8vw;
+    }
+
+    .item-nav a {
+        margin: 5px;
+        font-size: 1.9vw;
+        padding: 3px;
+    }
+
+    .navbar img {
+        width: 70%;
+    }
+
+    .data-goal p {
+        font-size: 1.9vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .box-container.slider {
+        justify-content: center;
+    }
+
+    .btn-main a {
+        font-size: 0.9em;
+    }
+
+    .col-proyectos {
+        display: block;
+    }
+
+    .data-goal p {
+        font-size: 17px;
+    }
+
+    .main-text h2 {
+        font-size: 2.5em;
+    }
+
+}
+
 
 
 /* ----- FIN GENESIS ----- */
