@@ -774,25 +774,22 @@ align-items: center
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 4% 0.5%;
 }
 
 .contenedor-info{
     width: 35vw;
-    height: 35vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: solid #2d2dc1 2px;
 }
 .contenedor-info-1{
-    height: 30vh;
     width: 35vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    border: solid red 1px;   
+    align-items: center;  
 }
 .contenedor-h3{
     height: 5vh;
@@ -802,42 +799,35 @@ align-items: center
     justify-content: space-around;
     border: solid white 1px;
     font-size: 0.8em;
-    border: solid pink 1px;
 }
 .h3-minititulo{
    font-size: 1em;
 }
 .contenedor-h1{
-    height: 30vh;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     font-size: 2.5em;
+    margin-top: -6%;
 }
 .h1-titulo{
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 .contenedor-info-2{
     width: 35vw;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: solid #2d2dc1 1px;
  }
  .contenedor-parrafo{
-    height: 35vh;
     width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border: solid crimson 1px;
- }
+}
 .parrafo1{
-    
-    font-size: 1.5em;
     text-align: justify;
 }
 .contenedor-boton{
@@ -850,6 +840,15 @@ align-items: center
 .boton-vermas{
     padding: 15px 38px;
     background: #2d2dc1;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.boton-vermas2 {
+    padding: 15px 38px;
+    background: rgb(0, 179, 173);
     border-radius: 50px;
     border: none;
     color: white;
@@ -877,7 +876,7 @@ align-items: center
 .contenedor-pago-mensual{
     margin-top: 5%;
     width: 25vw;
-    height:70vh;
+    height:80vh;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -892,7 +891,6 @@ align-items: center
 
 
 .contenedor-precio-mensual{
-    height: 70vh;
     width: 25vw;
     display:flex;
     flex-direction: column;
@@ -924,7 +922,7 @@ align-items: center
 .precio1{
     background-color: #2d2dc1;
     color: white;
-    font-size: 3em;
+    font-size: 2.2em;
 }
 .contenedor-recurring{
     height: 5vh;
@@ -942,15 +940,12 @@ align-items: center
 .contenedor-lista-beneficios1{
     background-color: white;
     width: 25vw;
-    height: 40vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 .ul-beneficios1{
     width: 20vw;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -959,7 +954,6 @@ align-items: center
 }
 
 .contenedor-boton-1{
-    height: 12vh;
     width: 25vw;
     display: flex;
     align-items: center;
@@ -979,12 +973,10 @@ align-items: center
 }
 
 
-
 .contenedor-pago-anual{
     padding:2vh;
     margin-bottom: 10%;
     width: 20vw;
-    height:70vh;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -994,7 +986,6 @@ align-items: center
     -moz-box-shadow: -6px 7px 5px -3px rgba(194,181,181,1);
 }
 .contenedor-precio-anual{
-    height: 70vh;
     width: 20vw;
     display:flex;
     flex-direction: column;
@@ -1003,7 +994,7 @@ align-items: center
     background-color: rgb(0, 179, 173);
 }
 .contenedor-anual{
-    height: 5vh;
+
     width: 20vw;
     display: flex;
     justify-content: center;
@@ -1024,7 +1015,7 @@ align-items: center
     
 }
 .precio2{
-    font-size: 3em;
+    font-size: 2.2em;
     color: white;
 }
 .contenedor-onetime{
@@ -1043,14 +1034,12 @@ align-items: center
 
 .contenedor-lista-beneficios2{
     width: 20vw;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .ul-beneficios2{
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1060,7 +1049,6 @@ align-items: center
 }
 
 .contenedor-boton-2{
-    height: 12vh;
     width: 20vw;
     display: flex;
     align-items: center;
@@ -1068,7 +1056,6 @@ align-items: center
 }
 .more2{
     width: 6vw;
-    height: 5vh;
     background-color: rgb(0, 179, 173);
     border: none;
     color: white;
