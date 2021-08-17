@@ -114,6 +114,10 @@ i {
     font-size: 1.1em;
 }
 
+.email {
+    align-self: center;
+}
+
 .logo-menu {
     width: 30%;
 }
@@ -197,12 +201,18 @@ section.sect-donaciones {
     .data-goal p {
         font-size: 1.9vw;
     }
+
 }
 
 @media (max-width: 480px) {
 
     .box-container.slider {
         justify-content: center;
+    }
+
+    .slider-back {
+        height: 320px;
+        display: flex;
     }
 
     .btn-main a {
@@ -221,6 +231,99 @@ section.sect-donaciones {
         font-size: 2.5em;
     }
 
+    .menu-desk {
+        display: none;
+    }
+
+    .logo-menu img {
+        width: 100%;
+    }
+
+    .top-header p {
+        font-size: 14px;
+    }
+
+    .icons {
+        font-size: 11px;
+    }
+
+    .icons i {
+        padding: 8px;
+    }
+
+}
+
+#menu-burger {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+}
+
+ul.ul-burger {
+    list-style: none;
+    position: absolute;
+    top: 120px;
+    left: -10px;
+    background: #f3f3f3;
+    padding: 5%;
+    width: 100vw;
+    display: none;
+}
+
+.item-nav a {
+    margin: 5px;
+    font-size: 13px;
+    padding: 15px;
+    line-height: 2.4;
+}
+
+.item-nav-b a {
+    display: block;
+    font-size: 13px;
+    line-height: 2.4;
+    text-decoration: none;
+    color: black;
+}
+
+.item-nav-b a:hover {
+    background-color: #e4e4e4;
+}
+
+#inputMenu {
+    padding: 5px 10px;
+    font-size: 22px;
+    background-color: #00d0d1;
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+#inputMenu:hover {
+    background-color: #1be7e7;
+}
+
+
+@media (min-width: 480px) {
+
+    #menu-burger {
+        display: none;
+        border-bottom: 1px solid #455468;
+    }
+
+    .ul-burger {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 71px);
+        background-color: #18283B;
+        left: 0;
+        top: 0;
+        text-align: center;
+        display: none;
+        margin-top: 71px;
+    }
+
+    
 }
 
 
