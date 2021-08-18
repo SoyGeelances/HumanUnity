@@ -373,7 +373,7 @@ ul.ul-burger {
         
     }
 
-    .contenedor-info{
+    .contenedor-info-quienes-somos{
         display: flex;
         width: 100%;
     }
@@ -621,6 +621,173 @@ ul.ul-burger {
         font-size: 1em;
     }
 
+    .icons-footer{display: none;}
+
+/* Media querys Marqui */
+
+@media (max-width: 768px){
+    .container-quienes-somos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-img-quienes-somos{
+        width: 65%;
+    }
+
+    .info-quienes-somos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor-titulo-quienes-somos{
+        width: 80%;
+        text-align: center;
+    }
+
+    .titulo-quienes-somos{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .container-quienes-somos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-img-quienes-somos{
+        width: 70%;
+    }
+
+    .info-quienes-somos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor-titulo-quienes-somos{
+        width: 90%;
+        text-align: center;
+    }
+
+    .titulo-quienes-somos{
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .contenedor-info-quienes-somos{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .parrafo-quienes-somos{
+        font-size: .9em;
+    }
+
+    .parrafo-noticias-recientes{
+        width: 80%;
+    }
+
+    .container-noticias{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .noticias{
+        width: 80%;
+        margin-bottom: 3%;
+    }
+
+    .container-footer{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-logo-redes{
+        width: 40%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-footer-logo-redes{
+        margin-top: 3%;
+    }
+
+    .contenedor-parrafo-footer-logo-redes{
+        display: flex;
+        justify-content: center;
+    }
+
+    .parrafo-footer-logo-redes{
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    .icons-footer{
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .lorem-responsive{
+        display: none;
+    }
+
+    .footer-contacto{
+        width: 40%;
+    }
+
+    .titulo-footer-contacto h3{
+        font-size: 1em;
+    }
+
+    .medios-contacto i{
+        font-size: 1em;
+    }
+
+    .medios-contacto p{
+        font-size: 0.8em;
+    }
+
+    .copyright p{
+        font-size: .7em;
+    }
+
+    .copyright i{
+        font-size: .8em;
+    }
+
+    .footer-suscripciones{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 350px){
+    .titulo-noticias-recientes{
+        font-size: 2em;
+    }
+
+    .span-responsive-320px{
+        display: none;
+    }
+
+    .footer-contacto{
+        margin-right: 7%;
+    }
+}
 
 
 
